@@ -49,3 +49,22 @@ nav {
 
 /* // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) { ... } */
+
+#logo{
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.landing{
+  background: url('/images/landing.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+#footer-logo{
+  max-width: 30rem;
+  max-height: 30vh;
+}
