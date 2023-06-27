@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>Hilton Hotel and Resort</title>
   </head>
   <body>
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <div class="container">
+        <img id="logo" src="images/companylogo.PNG" class="navbar-brand" href="#"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -23,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -42,15 +43,12 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#room-types">Accomodation</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#contact-us">Contact Us</a>
                 </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -67,6 +65,109 @@
         </div>
       </div>
     </nav>
+
+    <main>
+      <!--Landing-->
+      <section class="p-5 text-center landing">
+        <h3>Hotel & Resort</h3>
+        <h1>Welcome To Hilton Hotels</h1>
+        <button class="btn btn-outline-success" href="#">Discover Now</button>
+      </section>
+
+      <!--Availability-->
+      <section class="check-availability">
+        <div class="card mx-5 justify-content-between align-items-center px-10">
+          <div class="d-flex">
+            <form class="row">
+              <div class="mb-3 col-md-8">
+                <div class="row">
+                  <div class="col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Check In</label>
+                    <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="yyyy-mm-dd">
+                  </div>
+                  <div class="col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Check Out</label>
+                    <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="yyyy-mm-dd">
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3 col-md-4">
+                <div class="row">
+                  <div class="col-4">
+                    <label for="exampleFormControlInput1" class="form-label">Room</label>
+                    <select class="form-select">
+                      <option selected>1</option>
+                      <option value="room-2">2</option>
+                      <option value="room-3">3</option>
+                    </select>
+                  </div>
+                  <div class="col-4">
+                    <label for="exampleFormControlInput1" class="form-label">Adult</label>
+                    <select class="form-select">
+                      <option selected>1</option>
+                      <option value="adult-2">2</option>
+                      <option value="adult-3">3</option>
+                    </select>
+                  </div>
+                  <div class="col-4">
+                    <label for="exampleFormControlInput1" class="form-label">Children</label>
+                    <select class="form-select">
+                      <option selected>1</option>
+                      <option value="child-2">2</option>
+                      <option value="child-3">3</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="welcome-message">
+
+      </section>
+      <section class="hotel-facilities">
+
+      </section>
+      <section id="room-types" class="room-types">
+
+      </section>
+      <section class="testimonials">
+
+      </section>
+      <section class="our-blog">
+
+      </section>
+      <section class="contact-us">
+
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="p-5 bg-dark text-light text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex">
+          <img id="footer-logo" class="image-fluid" src="images/companylogo.PNG" alt="Hilton Hotels">
+          <div id="contact-us" class="px-5">
+            +1 647-333-3333<br>
+            info@hiltonhotels.com<br>
+            123 Brunel Road, Mississauga, ON L4Z 2C2<br>
+            <br>
+            <h3>Our Blog</h3>
+            <dl>
+              <dd>Something1        
+              </dd>
+              <dd>Something2        
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <hr/>
+        Copyright &copy;2023 All rights reserved. | FSDM S23 QueensCollege.ca
+        </div>
+      </footer>
   </body>
   <script src="./js/bootstrap.min.js"></script>
 </html>
