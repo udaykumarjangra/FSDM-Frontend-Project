@@ -154,7 +154,16 @@ nav {
 }
 
 #about-us {
-  margin-top: 100px;
+  margin-top: 30%;
+}
+
+h5 {
+  color: aquamarine;
+}
+
+#about-us img:hover {
+  transform: scale(1.1);
+  transition: transform .2s;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -169,6 +178,10 @@ nav {
   }
   .submit-form button {
     font-size: 14px;
+  }
+
+  #about-us {
+    margin-top: 10%;
   }
 }
 
