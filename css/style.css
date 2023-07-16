@@ -157,6 +157,45 @@ nav {
   margin-top: 100px;
 }
 
+/*Section Testimonial*/
+
+.align-items-center{
+  margin-top: 150px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+.section-heading h6 {
+  text-transform: uppercase;
+  color: #1cc3b2;
+  letter-spacing: 2px;
+  display:block;
+  margin-bottom: 10px;
+}
+.section-heading h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  display: block;
+  line-height: 1.2;
+}
+.section-heading {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+.rating span {
+  color: #f59e17;
+  font-size: 14px;
+}
+.rating {
+  margin-bottom: 5px;
+}
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 }
@@ -170,6 +209,7 @@ nav {
   .submit-form button {
     font-size: 14px;
   }
+  
 }
 
 /* Large devices (desktops, 992px and up) */
