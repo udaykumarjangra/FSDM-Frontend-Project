@@ -48,6 +48,7 @@ nav {
 
 .nav-book-now:hover {
   background-color: rgb(32, 43, 40);
+  transition: background-color 0.3s;
 }
 
 .navbar-right {
@@ -170,7 +171,7 @@ nav {
 
 #about-us img:hover {
   transform: scale(1.1);
-  transition: transform 0.2s;
+  transition: transform 0.5s;
 }
 
 /* Section Best Room */
@@ -202,7 +203,7 @@ nav {
 /*Section Testimonial*/
 
 .testimonials-section {
-  margin-top: 150px;
+  margin-top: 100px;
   margin-bottom: 40px;
   background-color: #fff;
   border-radius: 5px;
