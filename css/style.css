@@ -64,7 +64,7 @@ nav {
 }
 
 .landing {
-  background: url("/images/landing.jpg");
+  background: url("../img/landing.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,12 +154,21 @@ nav {
 }
 
 #about-us {
-  margin-top: 100px;
+  margin-top: 30%;
+}
+
+h5 {
+  color: aquamarine;
+}
+
+#about-us img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
 }
 
 /*Section Testimonial*/
 
-.align-items-center{
+.align-items-center {
   margin-top: 150px;
   margin-bottom: 40px;
   background-color: #fff;
@@ -172,7 +181,7 @@ nav {
   text-transform: uppercase;
   color: #1cc3b2;
   letter-spacing: 2px;
-  display:block;
+  display: block;
   margin-bottom: 10px;
 }
 .section-heading h2 {
@@ -195,9 +204,11 @@ nav {
   margin-bottom: 5px;
 }
 
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .submit-form button {
+    margin-top: 20px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -209,7 +220,10 @@ nav {
   .submit-form button {
     font-size: 14px;
   }
-  
+
+  #about-us {
+    margin-top: 10%;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
