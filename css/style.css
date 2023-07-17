@@ -4,6 +4,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.color-main {
+  color: #00d0d0;
+}
+
 .btn {
   padding: 20px;
   background-color: gray;
@@ -29,7 +33,7 @@ nav {
 }
 
 .nav-book-now {
-  background-color: aquamarine;
+  background-color: #00d0d0;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -96,15 +100,15 @@ nav {
 
 .landing-text button {
   background-color: transparent;
-  border: 2px solid aquamarine;
+  border: 2px solid #00d0d0;
   color: white;
   padding: 20px 40px;
   border-radius: 0px;
 }
 
 .landing-text button:hover {
-  background-color: aquamarine;
-  border: 2px solid aquamarine;
+  background-color: #00d0d0;
+  border: 2px solid #00d0d0;
 }
 
 /* Section Availability */
@@ -127,7 +131,7 @@ nav {
 
 .check-availability label {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .check-availability input,
@@ -138,27 +142,30 @@ nav {
 
 .check-availability input:focus,
 .check-availability select:focus {
-  border: 2px solid aquamarine;
+  border: 2px solid #00d0d0;
   box-shadow: none;
 }
 
-.submit-form button {
-  width: 100%;
-  border-radius: 5px;
-  background-color: aquamarine;
+.custom-fill-button {
+  border-radius: 3px;
+  background-color: #00d0d0;
 }
-.submit-form button:hover {
-  background-color: white;
-  color: aquamarine;
+.custom-fill-button:hover {
+  background-color: white !important;
+  color: #00d0d0 !important;
   box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.15);
 }
 
-#about-us {
-  margin-top: 30%;
+.submit-form button:active {
+  background-color: #e9ecef !important;
+  color: #00d0d0 !important;
+  box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.15);
 }
 
-h5 {
-  color: aquamarine;
+/* Section About Us */
+
+#about-us {
+  margin-top: 200px;
 }
 
 #about-us img:hover {
@@ -166,20 +173,44 @@ h5 {
   transition: transform 0.2s;
 }
 
+/* Section Best Room */
+
+.best-room {
+  background-color: rgb(14, 39, 55);
+}
+
+.room-image {
+  background-image: url("../img/business-suite.jpg");
+  background-position: center right !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 100%;
+}
+
+.room-card {
+  padding: 100px 10px;
+}
+
+.features-list {
+  font-size: 18px;
+}
+
+.feature i {
+  padding-right: 10px;
+}
+
 /*Section Testimonial*/
 
-.align-items-center {
+.testimonials-section {
   margin-top: 150px;
   margin-bottom: 40px;
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
 }
 .section-heading h6 {
   text-transform: uppercase;
-  color: #1cc3b2;
   letter-spacing: 2px;
   display: block;
   margin-bottom: 10px;
@@ -205,33 +236,55 @@ h5 {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (max-width: 767px) {
   .submit-form button {
     margin-top: 20px;
+  }
+  .check-availability input,
+  .check-availability select {
+    font-size: 10px;
+  }
+
+  .room-image {
+    height: 350px;
+  }
+
+  .single-testimonial-slide {
+    padding-top: 30px;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .check-availability label {
-    font-weight: 500;
-    font-size: 14px;
-  }
   .submit-form button {
     font-size: 14px;
   }
 
   #about-us {
-    margin-top: 10%;
+    margin-top: 150px;
+  }
+
+  .check-availability input,
+  .check-availability select {
+    font-size: 14px;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  #about-us {
+    margin-top: 150px;
+  }
+  .check-availability label {
+    font-size: 14px;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .check-availability label {
+    font-size: 16px;
+  }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up)
