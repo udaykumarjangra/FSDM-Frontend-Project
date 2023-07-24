@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Hilton Hotel and Resort</title>
+    <title>Hilton Hotel and Resort | Welcome</title>
   </head>
   <body>
     <!--Navbar-->
@@ -50,13 +50,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about-us">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Rooms</a>
+              <a class="nav-link" href="./rooms.html">Rooms</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item nav-book-now">
               <a class="nav-link" href="#">Book Now</a>
@@ -70,9 +70,11 @@
       <!--Landing-->
       <section class="landing">
         <div class="text-center landing-text">
-          <h6 class="pb-1">Hotel & Resort</h6>
+          <h6 class="pb-1 secondary-heading-uppercase">Hotel & Resort</h6>
           <h1>Welcome To Hilton Hotels</h1>
-          <button class="btn" href="#">Discover Now</button>
+          <button class="btn custom-outline-button" href="#">
+            Discover Now
+          </button>
         </div>
       </section>
 
@@ -153,7 +155,7 @@
       <!--Introduction-->
       <section id="about-us">
         <div class="container">
-          <h6 class="color-main">ABOUT US</h6>
+          <h6 class="color-main secondary-heading-uppercase">About Us</h6>
           <div class="row">
             <div class="col-lg-6 col-md-12">
               <h2>Welcome To Hilton Hotel</h2>
@@ -215,7 +217,7 @@
               <div class="room-image"></div>
             </div>
             <div class="col-12 col-md-6">
-              <div class="room-card">
+              <div class="featured-room-card">
                 <h1>Business Suite</h1>
                 <h3 class="color-main">
                   250$<span class="text-white h6"> / Day</span>
@@ -253,7 +255,9 @@
         <div class="container">
           <div class="testimonials-section">
             <div class="section-heading">
-              <h6 class="color-main">Testimonials</h6>
+              <h6 class="color-main secondary-heading-uppercase">
+                Testimonials
+              </h6>
               <h2>Our Guests Love Us</h2>
             </div>
             <div class="row testimonial-slides">
@@ -364,29 +368,29 @@
     </main>
 
     <!--Footer-->
-    <footer class="p-5 bg-dark text-light text-center text-sm-start">
+    <footer class="p-5 text-white">
       <div class="container">
-        <div class="d-sm-flex">
-          <img
-            id="footer-logo"
-            class="image-fluid"
-            src="./img/companylogo.PNG"
-            alt="Hilton Hotels"
-          />
-          <div id="contact-us" class="px-5">
-            +1 647-333-3333<br />
-            info@hiltonhotels.com<br />
-            123 Brunel Road, Mississauga, ON L4Z 2C2<br />
-            <br />
-            <h3>Our Blog</h3>
-            <dl>
-              <dd>Something1</dd>
-              <dd>Something2</dd>
-            </dl>
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
+            </a>
+            <span class="mb-3 mb-md-0">© Hilton Hotels and Resorts</span>
           </div>
-        </div>
-        <hr />
-        Copyright &copy;2023 All rights reserved. | FSDM S23 QueensCollege.ca
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a href="#"><i class="bi bi-twitter text-white"></i></a>
+            </li>
+            <li class="ms-3">
+              <a href="#"><i class="bi bi-facebook text-white"></i></a>
+            </li>
+            <li class="ms-3">
+              <a href="#"><i class="bi bi-instagram text-white"></i></a>
+            </li>
+          </ul>
+        </footer>
       </div>
     </footer>
   </body>
