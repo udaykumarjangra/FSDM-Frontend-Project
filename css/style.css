@@ -234,6 +234,80 @@ nav {
   margin-bottom: 5px;
 }
 
+/* Section Write to us */
+
+.write-to-us {
+  margin-top: 190px;
+}
+
+.container-fluid {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.write-to-us h3 {
+  margin-top: -5px;
+  text-align: center;
+}
+
+.write-to-us-form {
+  box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.15);
+  padding: 40px 40px 0 40px;
+  transform: translateY(-50%);
+  position: relative;
+  z-index: 5;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.write-to-us label {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.write-to-us input {
+  display: inline;
+  border-radius: 5px;
+  height: 50px;
+  width: 90%;
+}
+
+.write-to-us input:focus,
+.write-to-us select:focus {
+  border: 2px solid #00d0d0;
+  box-shadow: none;
+}
+
+.write-to-us textarea {
+  display: inline;
+  border-radius: 5px;
+  height: 50px;
+  width: 90%;
+}
+
+.custom-fill-button {
+  border-radius: 3px;
+  background-color: #00d0d0;
+}
+.custom-fill-button:hover {
+  background-color: white !important;
+  color: #00d0d0 !important;
+  box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.15);
+}
+
+.submit-form button:active {
+  background-color: #e9ecef !important;
+  color: #00d0d0 !important;
+  box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.15);
+}
+
+.locate-us iframe {
+  height: 250px;
+  width: 100%;
+}
+
 /* Footer */
 footer {
   background-color: rgb(14, 39, 55);
