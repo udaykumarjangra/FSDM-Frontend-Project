@@ -234,6 +234,59 @@ nav {
   margin-bottom: 5px;
 }
 
+/* Section Write to us */
+
+.write-to-us h3 {
+  margin-top: -5px;
+  text-align: center;
+}
+
+.form-group {
+  position: relative;
+}
+
+.write-to-us label {
+  font-weight: 500;
+  font-size: 18px;
+  left: 12px;
+  color: grey;
+  top: 12px;
+  z-index: 10;
+  position: absolute;
+}
+
+.write-to-us input {
+  border-radius: 5px;
+  padding-left: 40px;
+  height: 50px;
+  width: 90%;
+}
+
+.write-to-us input:focus,
+.write-to-us select:focus {
+  border: 2px solid #00d0d0;
+  box-shadow: none;
+}
+
+.write-to-us textarea {
+  display: inline;
+  border-radius: 5px;
+  height: 50px;
+  width: 90%;
+}
+
+/*Section Locate Us*/
+.locate-us iframe {
+  height: 220px;
+  width: 100%;
+}
+
+/*Section Call Us*/
+.call-us {
+  justify-content: space-between;
+  text-align: center;
+}
+
 /* Footer */
 footer {
   background-color: rgb(14, 39, 55);
