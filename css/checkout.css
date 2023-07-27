@@ -1,0 +1,39 @@
+.custom-input label {
+  left: 25px;
+}
+
+.input-group label {
+  left: 15px;
+  top: 18px;
+}
+
+.input-group input {
+  height: 65px;
+}
+
+.input-group .custom-fill-button {
+  height: 100%;
+  margin-left: 20px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+  .cart {
+    margin-top: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
